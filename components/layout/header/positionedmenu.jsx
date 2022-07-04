@@ -45,21 +45,6 @@ function Positionedmenu(props) {
           horizontal: "left",
         }}
       >
-        {/* <MuiNextLink
-                    key={`${title}${i}`}
-                    href={path}
-                    variant="button"
-                    sx={{ color: `white`, opacity: 0.7 }}
-                    label={label}
-                    styleClass="Navbar"
-                  >
-                    {title}
-                  </MuiNextLink>
-                  { title: "Home", path: `/`, label: "home" },
-    { title: "About Us", path: `/aboutus`, label: "aboutus" },
-    { title: "Our Services", path: `/ourservices`, label: "our Services" },
-    { title: "Contact Us", path: `/contactus`, label: "contactus" }, */}
-
         <MenuItem onClick={handleClose}>
           <MuiNextLink
             key={`${Home}`}
@@ -71,11 +56,8 @@ function Positionedmenu(props) {
           >
             Home
           </MuiNextLink>
-
-          {/* <NavLink to="/">Home</NavLink> */}
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          {/* <NavLink to="/aboutus">About US</NavLink> */}
           <MuiNextLink
             key={`${AboutUs}`}
             href={`/aboutus`}
@@ -89,7 +71,6 @@ function Positionedmenu(props) {
         </MenuItem>
 
         <MenuItem onClick={handleClose}>
-          {/* <NavLink to="/Ourservices">Our Services</NavLink> */}
           <MuiNextLink
             key={`${OurServices}`}
             href={`/ourservices`}
@@ -103,7 +84,6 @@ function Positionedmenu(props) {
         </MenuItem>
 
         <MenuItem onClick={handleClose}>
-          {/* <NavLink to="/contactus">Contact US</NavLink> */}
           <MuiNextLink
             key={`${Contactus}`}
             href={`/contactus`}
