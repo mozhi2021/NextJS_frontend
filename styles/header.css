@@ -1,0 +1,102 @@
+.titlebar {
+    color: rgb(255, 255, 255);
+    vertical-align: baseline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(223, 169, 31);
+    align-items: end;
+    align-self: end;
+    font-size: .5cm;
+    text-align: left;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link:hover {
+    color:orange;
+}
+
+.link-active {
+    color: orchid;
+    text-decoration-line: underline;
+}
+
+
+.daterange {
+    display: flex;
+}
+
+.timeIcon {
+    display: flex;
+}
+
+.bigscreentime {
+    display: none;
+}
+
+.bigscreenphone {
+    display: none;
+
+}
+
+.phonenumber {
+    display: flex;
+}
+
+.menuButton {
+    display: none;
+}
+
+.Navlinks {
+    display: flex;
+}
+
+
+.button {
+    color: white;
+    text-align: center;
+    background-color: green;
+
+}
+
+
+@media only screen and (max-width: 650px) {
+
+
+    .daterange {
+        display: none;
+    }
+
+    .timeIcon {
+        display: none;
+    }
+
+    .bigscreentime {
+        display: flex;
+    }
+
+    .bigscreenphone {
+        display: flex;
+    }
+
+    .phonenumber {
+        display: none;
+    }
+
+    .menuButton {
+        display: flex;
+    }
+
+    .Navlinks {
+        display: none;
+    }
+
+
+
+}
